@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ofertas · AhorraCesta</title><link rel="stylesheet" href="css/styles.css"></head><body>
+<header><h1>AhorraCesta</h1><p>Haz tu lista y mira dónde y cómo te sale más barata.</p></header>
+<nav><a href="index.html">🔎 Buscar</a><a href="ofertas.html" class="on">🏷️ Ofertas</a><a href="cesta.html">🧺 Mi cesta <b class="count">0</b></a></nav>
+<main><section><h2>Ofertas vigentes</h2>
+<p class="note">Hoy hay <b id="n">0</b> ofertas. Los productos que añadas se compran donde salgan más baratos.</p>
+<div id="chips" class="chips" role="group" aria-label="Filtrar por supermercado"></div>
+<div class="tools"><label>Categoría <select id="cat"></select></label><label>Ordenar por <select id="sort"><option value="pct">Mayor descuento</option><option value="save">Más euros ahorrados</option><option value="end">Terminan antes</option><option value="price">Precio más bajo</option></select></label></div>
+<div id="offers" class="grid"></div></section></main><footer id="foot"></footer>
+<script src="data/catalog.js"></script><script src="js/datasource.js"></script><script src="js/config.js"></script><script src="js/optimizer.js"></script><script src="js/common.js"></script><script src="js/ofertas.js"></script></body></html>
